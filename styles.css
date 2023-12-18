@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.calculator {
+    margin: 60px auto;
+    padding: 20px;
+    height: 600px;
+    width: 400px;
+    background-color: darkgray;
+    border-radius: 10px;
+    border: 2px black solid;
+}
+
+.display {
+    height: 88px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: right;
+    font-size: 40px;
+    border: 2px black solid;
+}
+
+.row1 {
+    display: flexbox;
+    flex-direction: row;
+}
+
+.top-button {
+    height: 40px;
+    width: 80px;
+    border: 2px black solid;
+}
+
+.top-button.clear {
+    background-color: lightcoral;
+}
+
+.top-button.delete {
+    background-color: lightblue;
+}
+
+.button {
+    height: 40px;
+    width: 40px;
+    border: 2px black solid;
+}
