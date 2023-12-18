@@ -12,6 +12,8 @@
     background-color: darkgray;
     border-radius: 10px;
     border: 2px black solid;
+    display: flex;
+    flex-direction: column;
 }
 
 .display {
@@ -23,8 +25,8 @@
     border: 2px black solid;
 }
 
-.row1 {
-    display: flexbox;
+.row {
+    display: flex;
     flex-direction: row;
 }
 
