@@ -34,5 +34,4 @@ const operate = function(firstNum, op, secondNum) {
             break;
     }
 
-    }
-};
+}
