@@ -60,3 +60,8 @@
     text-align: center;
     padding: 16px 0;
 }
+
+.button:hover, .top-button:hover {
+    cursor: pointer;
+    background: gray;
+}
