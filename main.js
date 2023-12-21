@@ -1,6 +1,7 @@
 let firstNumber = 0;
 let secondNumber = 0;
 let operator = "";
+let equation = [];
 
 const add = function(a, b) {
     return a + b;
@@ -35,3 +36,4 @@ const operate = function(firstNum, op, secondNum) {
     }
 
 }
+
