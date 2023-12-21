@@ -61,7 +61,12 @@
     padding: 16px 0;
 }
 
-.button:hover, .top-button:hover {
+.button:hover, .top-button:hover, .button:focus, .top-button:focus {
+    cursor: pointer;
+    background: lightgray;
+}
+
+.button:active, .top-button:active {
     cursor: pointer;
     background: gray;
 }
